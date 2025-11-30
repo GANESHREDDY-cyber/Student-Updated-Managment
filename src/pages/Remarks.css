@@ -1,0 +1,131 @@
+.remarks-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.remarks-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.remarks-header h2 {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.remarks-header p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+.remarks-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.calendar-section, .remarks-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  padding: 25px;
+  backdrop-filter: blur(10px);
+}
+
+.calendar-section h3, .remarks-section h3 {
+  color: var(--text-color);
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.calendar-wrapper {
+  text-align: center;
+}
+
+.react-calendar {
+  width: 100%;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--text-color);
+  font-family: inherit;
+}
+
+.react-calendar__tile {
+  background: var(--button-bg);
+  color: var(--text-color);
+  border: none;
+  padding: 10px;
+  transition: all 0.2s ease;
+}
+
+.react-calendar__tile:hover {
+  background: var(--hover-bg);
+}
+
+.react-calendar__tile--active {
+  background: var(--primary-color) !important;
+  color: white;
+}
+
+.selected-date {
+  margin-top: 15px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.remarks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.remark-item {
+  background: var(--hover-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.remark-item:hover {
+  background: var(--active-bg);
+  transform: translateY(-2px);
+}
+
+.remark-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.remark-title {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.remark-date {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  opacity: 0.6;
+}
+
+.remark-content {
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .remarks-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .remarks-header h2 {
+    font-size: 2rem;
+  }
+}
