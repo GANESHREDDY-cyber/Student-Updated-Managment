@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://YOUR_USERNAME.github.io/kl-campus-connect",
+  "homepage": "./",
   "dependencies": {
     "react": "^18.3.1",
     "react-calendar": "^5.1.0",
