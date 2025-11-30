@@ -1,16 +1,35 @@
-# React + Vite
+# KL Campus Connect - Student Activity Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎓 Features
+- **OTP Authentication** - Secure email verification
+- **Theme Switching** - Light/Dark mode
+- **20+ Clubs** - Diverse student organizations
+- **Event Management** - Club-specific events with venues
+- **Profile Management** - Photo upload and student details
+- **Reference System** - Club-specific resources
+- **Captcha Security** - Login protection
+- **Responsive Design** - Works on all devices
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+Visit: [Your GitHub Pages URL]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📱 How to Use
+1. **Register**: Create account with 10-digit student ID (22-25 prefix)
+2. **Login**: Enter credentials + captcha + OTP verification
+3. **Explore**: Join clubs, view events, manage profile
+4. **Engage**: Access club references and track activities
 
-## React Compiler
+## 🛠️ Tech Stack
+- React 18 + Vite
+- React Router DOM
+- CSS Variables (Theme System)
+- LocalStorage (Data Persistence)
+- GitHub Pages (Deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📊 Student ID Format
+- **25xx**: 1st Year (Batch 2025-2029)
+- **24xx**: 2nd Year (Batch 2024-2028)
+- **23xx**: 3rd Year (Batch 2023-2027)
+- **22xx**: 4th Year (Batch 2022-2026)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built with ❤️ for KL University students
